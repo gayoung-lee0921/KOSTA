@@ -1,0 +1,68 @@
+ body{
+    padding: 0;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+}
+h1 span:nth-of-type(1){
+    color: rgb(066,133,244);
+}
+h1 span:nth-of-type(2){
+    color: rgb(234,067,053);
+}
+h1 span:nth-of-type(3){
+    color: rgb(251, 188, 005)
+}
+h1 span:nth-of-type(4){
+    color: rgb(066,133,244);
+}
+h1 span:nth-of-type(5){
+    color: rgb(052,168,083);
+}
+h1 span:nth-of-type(6){
+    color: rgb(234,067,053);
+}
+form{
+   text-align: center;
+}
+form input{
+    width: 100%;
+    max-width:584px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin: 35px 0;
+}
+form .btns{
+    width: 100%;
+    border: 1px solid #111;
+}
+form input:focus{
+    outline: none;
+}
+
+form button{
+    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
+    background-color: #f8f9fa;
+    outline: none;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+form button:focus{
+    outline: 0.5px solid lightskyblue;
+}
+form button:hover{
+    border: 1px solid #dfe1e5;
+}
+form button:nth-of-type(1){
+    margin-right: 20px;
+}

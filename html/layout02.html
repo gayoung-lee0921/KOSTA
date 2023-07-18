@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout02 연습</title>
+    <style>
+        body{
+            border: 1px solid #111;
+        }
+        header{
+            background-color: lightgray;
+            height: 100px;
+        }
+        nav{
+            background-color: coral;
+            height: 300px;
+            color: #fff;
+            width: 20%;
+            float: left;
+        }
+        section{
+            width: 80%;
+            height: 300px;
+            background-color: lightpink;
+            float: right;
+        }
+        footer{
+            background-color: aqua;
+            height: 100px;
+            clear: both;
+        }
+        header, nav, section, footer{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>header 영역</h2>
+    </header>
+    <nav>
+        <h2>nav 영역</h2>
+    </nav>
+    <section >
+        <h2>section 영역</h2>
+    </section>
+    <footer>
+        <h2>footer 영역</h2>
+    </footer>
+</body>
+</html>

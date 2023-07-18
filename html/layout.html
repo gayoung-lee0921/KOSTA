@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 연습</title>
+    <style>
+        body{
+            border: 1px solid #111;
+            height: 100vh;
+        }
+        #header{
+            background-color: lightgray;
+            height: 100px;
+        }
+        #nav{
+            background-color: coral;
+            height: 300px;
+            color: #fff;
+            width: 20%;
+            float: left;
+        }
+        #section{
+            background-color: lightpink;
+            width: 80%;
+            float: right;
+        }
+        #footer{
+            background-color: aqua;
+            height: 100px;
+            clear: both;
+        }
+        #header, #nav, #section, #footer{
+            text-align: center;
+        }
+        #header, #footer{
+            line-height: 100px;
+        }
+        #nav, #section{
+            line-height: 240px;
+        }
+    </style>
+</head>
+<body>
+    <h1>div 요소를 이용한 레이아웃</h1>
+    <div id="header">
+        <h2>header 영역</h2>
+    </div>
+    <div id="nav">
+        <h2>nav 영역</h2>
+    </div>
+    <div id="section">
+        <h2>section 영역</h2>
+    </div>
+    <div id="footer">
+        <h2>footer 영역</h2>
+    </div>
+</body>
+</html>
